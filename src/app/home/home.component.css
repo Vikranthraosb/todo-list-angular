@@ -8,28 +8,31 @@ svg{
     text-align: center;
 }
 
-.nav{
-    height: 40px;
-    width: 100%;
+button {
     background-color: blueviolet;
-    border-radius: 0px 0px 20px 20px;
-}
-
-.nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.nav ul li{
-    text-decoration: none;
-    color: white;
+    color: #fff;
+    border: none;
     font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.6s ease;
+    margin: 10px;
 }
 
-footer{
-    height: 40px;
-    width: 100%;
-    background-color: blueviolet;
-    border-radius: 20px 20px 0px 0px;
-    color: white;
+button:hover {
+    background-color: #ebd6ff;
+    color: blueviolet;
+
+}
+.team-members {
+    color: rgb(87, 87, 87);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.team-members li {
+    font-weight: bold;
 }

@@ -8,28 +8,57 @@ svg{
     text-align: center;
 }
 
-.nav{
-    height: 40px;
-    width: 100%;
-    background-color: blueviolet;
-    border-radius: 0px 0px 20px 20px;
-}
-
-.nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 .nav ul li{
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
-
-footer{
+.nav {
     height: 40px;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: blueviolet;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.navlist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navlist li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navlist li:last-child {
+    margin-right: 0;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: #dadada;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navlist li a:hover {
+    color: #adff50;
+}
+
+.footer {
+    background-color: #282727;
     color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0; 
+    padding-left: 0; 
+    padding-right: 0; 
 }
